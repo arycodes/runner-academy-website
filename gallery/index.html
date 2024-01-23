@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Runner Academy - Academic Gallery</title>
+    <link rel="icon" type="image/png" href="/assets/images/logo.png">
+
+    <meta name="description"
+        content="Explore the Academic Gallery of Runner Academy. View images showcasing our students' achievements, learning experiences, and academic events. Join us in celebrating the journey of knowledge and success at Runner Academy.">
+    <meta name="keywords"
+        content="Runner Academy, Academic Gallery, Students, Achievements, Learning, Events, Success, Knowledge">
+    <meta name="author" content="Runner Academy">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Runner Academy - Academic Gallery">
+    <meta property="og:description"
+        content="Explore the Academic Gallery of Runner Academy. View images showcasing our students' achievements, learning experiences, and academic events. Join us in celebrating the journey of knowledge and success at Runner Academy.">
+    <meta property="og:image" content="/assets/images/logo.png">
+    <meta property="og:url" content="runneracademy.vercel.app">
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Google tag (gtag.js) -->
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #fff;
+            /* White background */
+            color: #333;
+            /* Dark text color */
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #f8f8f8;
+            /* Light gray background */
+            padding: 10px;
+        }
+
+        nav a {
+            color: #333;
+            /* Dark text color */
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .notification {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        figcaption {
+            text-align: center;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Runner Academy</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <!-- Use the "bg-info" class for a bright blue color -->
+        <a class="navbar-brand" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            style="background-color: #007bff;border: 2px solid rgba(255, 255, 255, 0.579);" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <!-- Add the Gallery link -->
+                <li class="nav-item">
+                    <a class="nav-link" href="/gallery/">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container mt-4">
+        <h2>Academy Gallery</h2>
+
+        <section id="Students" class="mt-4">
+            <h3>Our Students</h3>
+            <div class="gallery">
+                <!-- Students Section Images -->
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+
+            </div>
+        </section>
+
+        <section id="achievements" class="mt-4">
+            <h3>Achievements</h3>
+            <div class="gallery">
+                <!-- Achievements Section Images -->
+                <figure><img src="/gallery/images/4.jpg" alt="Achievement Image 1"></figure>
+            </div>
+        </section>
+
+        <section id="celebration" class="mt-4">
+            <h3>Celebration</h3>
+            <div class="gallery">
+                <!-- Celebration Section Images -->
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+            </div>
+        </section>
+
+        <section id="started" class="mt-4">
+            <h3>We Started</h3>
+            <div class="gallery">
+                <!-- Started Section Images -->
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+                <figure><img src="https://via.placeholder.com/250" alt="Student Image 1"></figure>
+            </div>
+        </section>
+
+    </section>
+
+    <footer class="bg-dark text-white mt-4">
+        <div class="container text-center">
+            <p> &copy; 2024 Runner Academy. All rights reserved </p>
+            <a href="https://aryanmishra.arycodes.in">Powered by AryCodes</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
